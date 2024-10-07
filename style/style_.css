@@ -1,0 +1,165 @@
+:root {
+    --fuchsia: #FF00FF;
+    --brown: #A52A2A;
+    --ivory: #FFFFF0;
+    --oldLace: #FDF5E6;
+    --skyBlue: #87CEEB;
+}
+::selection {
+    color: var(--fuchsia);
+    background: Cyan;
+}
+
+/* Шрифти */
+html {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+article {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    word-spacing: 5px;
+    text-indent: 15px;
+}
+
+/* Панель навігації */
+nav {
+    display: flex;
+    background: var(--brown);
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo {
+    height: 5rem;
+    width: 5rem;
+    margin-left: 3rem;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-right: 3rem;
+}
+nav a {
+    text-decoration: none;
+    color: var(--ivory);
+}
+nav li:hover {
+    font-size: 1.5rem;
+}
+
+/* Зміни фото */
+#fotoRadius{
+   border-radius: 5rem;   
+}
+img:hover {
+    transform: scale(1.05);
+    filter: brightness(110%);
+}
+.fotoCenter {
+    border-style: double;
+    border-width: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.maydan {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* body сторінок */
+.mainBody {
+    background-color: var(--oldLace);
+    margin: 0;
+    padding: 0;
+}
+.kyivBackground {
+    background-color: var(--skyBlue);
+    margin: 0;
+    padding: 0;
+}
+.SantaBack {
+    background-color: var(--skyBlue);
+    margin: 0;
+    padding: 0;
+}
+
+/* footer */
+footer {
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+.pFooter {
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS';
+}
+
+/* index.html */
+#mainPage {
+    font-size: 2.2rem;
+}
+#mainPoint {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 50px;
+}
+#mainPoint:hover {
+    transform: translateY(-5px);
+    filter: brightness(110%);
+    
+}
+
+/* Cities.html */
+div a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+/* Forma.html */
+input[type="text"], input[type=email]{
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus, input[type=email]:focus {
+  background-color: lightblue;
+  width: 100%;
+}
+select {
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+    background-color: white;
+}
+input[type=submit], input[type=reset] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
